@@ -1,1 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from scipy import stats
+import math
+import statistics
+
+
+probs = stats.hypergeom.pmf(6,49,6,6)
+print("中頭獎的機率為",probs)
 
